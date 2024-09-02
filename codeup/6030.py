@@ -1,3 +1,2 @@
-a= input()
-s = int(a)
-print(chr(s))
+a= ord(input())
+print(a)
