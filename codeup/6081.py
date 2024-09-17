@@ -1,7 +1,7 @@
 n = input()
 a = int(n, 16)
-for _ in range(1, 17):
-    num = a * _
-    h = _
-    hex = int(h, 16)
-    print("%c"%n + "*%s="%hex + "%s" % hex(num))
+for i in range(1, 16):
+    num = a * i
+    hex_num = hex(num)[2:].upper()
+    hex_i = hex(i)[2:].upper()
+    print(f"{n.upper()}*{hex_i}={hex_num}")
