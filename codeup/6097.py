@@ -1,10 +1,10 @@
 pan = [[0] * 100 for _ in range(100)]
 x0,y0 = map(int, input().split())
 for i in range(x0):
-    pan[i] = [0] * y0
+    pan[i]=[0]*y0
 n = int(input())
 for i in range(n):
-    l, d, x, y = map(int, input().split())
+    l, d, x, y= map(int, input().split())
     if d==0:
         for j in range(l):
             pan[x-1][y-1+j] = 1        
