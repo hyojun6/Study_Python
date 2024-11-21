@@ -1,3 +1,3 @@
 a = input()
 b = input()
-print(b+"\n"+a)
+print(b + "\n" + a)
