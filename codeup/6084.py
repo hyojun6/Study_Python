@@ -1,3 +1,6 @@
 h, b, c, s = map(int, input().split())
 bit=(h*b*c*s)/(8*1024*1024)
-print("%.1f"%bit + " MB")
+#print("%.1f"%bit + " MB")
+#print(f'{bit:.1f} MB')
+result = format(bit, '.1f')
+print(result + " MB")

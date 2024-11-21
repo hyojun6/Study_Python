@@ -1,2 +1,2 @@
-a=input()
-print(format(float(a), ".2f") )
+a=float(input())
+print(format(a, ".2f") )

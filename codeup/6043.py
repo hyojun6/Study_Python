@@ -1,2 +1,2 @@
-a, b = input().split(' ')
-print(f"{float(a) / float(b):.3f}")
+a, b = map(float, input().split())
+print(f"{a / b:.3f}")
