@@ -1,2 +1,2 @@
-a = input()
-print(float(a))
+a = float(input())
+print(a)
