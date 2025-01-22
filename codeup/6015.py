@@ -1,2 +1,2 @@
 a, b = input().split()
-print(a+"\n"+b)
+print(a+"\n"+b) 
