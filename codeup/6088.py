@@ -4,4 +4,4 @@ result = 0
 for i in range(0,n):
     result = num
     num += d
-print(result) 
+print(result)
