@@ -1,1 +1,1 @@
-a,b = input(stplit(""))
+a,b = input(stplit("")) 
